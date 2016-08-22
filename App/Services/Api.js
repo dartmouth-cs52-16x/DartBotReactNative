@@ -64,6 +64,18 @@ const create = (baseURL = 'http://openweathermap.org/data/2.1') => {
   }
 }
 
+// export const api = apisauce.create({baseURL: 'http://dartmouthbot.herokuapp.com/api'});
+
+
+export const api = apisauce.create({
+  // base URL is read from the "constructor"
+  baseURL: 'http://dartmouthbot.herokuapp.com/api',
+  // here are some default headers
+  headers: {
+    'Content-Type': 'application/json'
+  },
+})
+
 // let's return back our create method as the default.
 export default {
   create
