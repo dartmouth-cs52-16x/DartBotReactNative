@@ -13,9 +13,6 @@ import styles from './Styles/PresentationScreenStyle'
 
 class PresentationScreen extends React.Component {
 
-  static propTypes = {
-  }
-
   constructor (props) {
     super(props)
     this.state = {

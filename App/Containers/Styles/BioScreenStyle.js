@@ -5,6 +5,34 @@ export default StyleSheet.create({
   container: {
     flex: 1,
     marginTop: Metrics.navBarHeight,
-    backgroundColor: Colors.background
+    backgroundColor: '#00693E'
+  },
+  intro: {
+    fontSize: 15,
+    color: 'white',
+    paddingTop: 12,
+    marginLeft: 10,
+    marginRight: 8
+  },
+  itemContainer: {
+    marginTop: 20,
+    marginLeft: 14,
+    marginRight: 14,
+    padding: 10,
+    paddingLeft: 14,
+    paddingRight: 14,
+    backgroundColor: 'white',
+  },
+  name: {
+    color: 'black',
+    fontSize: 20,
+    paddingBottom: 10
+  },
+  major: {
+    color: 'black',
+    paddingBottom: 8
+  },
+  content: {
+    color: 'black'
   }
 })
