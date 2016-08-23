@@ -23,7 +23,7 @@ class NavigationRouter extends Component {
             <Scene initial key='presentationScreen' component={PresentationScreen} title='DartBot' renderLeftButton={NavItems.hamburgerButton} />
             <Scene key='bioScreen' component={BioScreen} title='Bios' />
             <Scene key='botScreen' component={BotScreen} title='Bot' />
-            <Scene key='adminScreen' component={AdminScreen} title='Admin' />
+            <Scene key='adminScreen' component={AdminScreen} title='About' />
           </Scene>
         </Scene>
       </Router>

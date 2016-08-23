@@ -31,7 +31,7 @@ class DrawerContent extends Component {
         <Text style={styles.logo}>DartBot</Text>
         <DrawerButton style={styles.text} text='Bios' onPress={this.handlePressBios} />
         <DrawerButton style={styles.text} text='Bot' onPress={this.handlePressBot} />
-        <DrawerButton style={styles.text} text='Admin' onPress={this.handlePressAdmin} />
+        <DrawerButton style={styles.text} text='About' onPress={this.handlePressAdmin} />
       </ScrollView>
     )
   }
