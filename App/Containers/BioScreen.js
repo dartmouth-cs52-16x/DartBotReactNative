@@ -29,9 +29,15 @@ class BioScreen extends React.Component {
       <ScrollView style={styles.container}>
         <Text style={styles.intro}>Meet some of our wonderful tour guides!</Text>
          {this.state.bioItems.map((result) => {
+           const imgURL = result.image ? result.image : 'http://www.patriotenergygroup.com/images2/tba.png';
            return (
              <View style={styles.itemContainer} key={result.id}>
-              <Text style={styles.name}>{result.name} - {result.year}</Text>
+              <View style={styles.nameAndImage}>
+                <Text style={styles.name}>{result.name} - {result.year}</Text>
+                <Image style={styles.image}
+                  source={{uri: imgURL}}
+                />
+              </View>
               <Text style={styles.major}>Major: {result.major}</Text>
               <Text style={styles.content}>{result.content}</Text>
              </View>

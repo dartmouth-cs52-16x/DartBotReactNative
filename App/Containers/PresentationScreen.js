@@ -16,7 +16,8 @@ class PresentationScreen extends React.Component {
   constructor (props) {
     super(props)
     this.state = {
-      initialPosition: { latitude: 0, longitude: 0 }
+      initialPosition: { latitude: 0, longitude: 0 },
+      locationsSet: false
     }
     this.markers = [];        // markers for pins
   }
@@ -38,6 +39,7 @@ class PresentationScreen extends React.Component {
           subtitle: 'Talk to our Bot for more info!'
         });
       });
+      this.setState({locations: true});
     }).catch(error => {
       this.markers = [        // a few fallback locations in case of failure
         {

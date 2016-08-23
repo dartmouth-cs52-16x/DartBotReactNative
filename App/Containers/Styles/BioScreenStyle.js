@@ -14,6 +14,14 @@ export default StyleSheet.create({
     marginLeft: 10,
     marginRight: 8
   },
+  nameAndImage: {
+    flexDirection: 'row',
+    justifyContent: 'space-around'
+  },
+  image: {
+    height: 75,
+    width: 75
+  },
   itemContainer: {
     marginTop: 20,
     marginLeft: 14,
