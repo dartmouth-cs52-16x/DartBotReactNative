@@ -24,7 +24,7 @@ class AdminScreen extends React.Component {
     return (
       <ScrollView style={styles.container}>
         <Text style={styles.bigIntro}>
-          Looking to learn more about Dartmouth College? Welcome to DartBot.
+          Looking to learn more about Dartmouth College? Welcome to <Text style={styles.name}>DartBot</Text>.
         </Text>
         <Text style={styles.para}>
           DartBot, the virtual tour guide, is a revolutionary new way to tour a school. Send your location on campus to DartBot and DartBot

@@ -8,9 +8,10 @@ export default StyleSheet.create({
     backgroundColor: '#00693E'
   },
   intro: {
-    fontSize: 15,
+    fontFamily: 'Chalkduster',
+    fontSize: 20,
     color: 'white',
-    paddingTop: 12,
+    paddingTop: 20,
     marginLeft: 10,
     marginRight: 8
   },

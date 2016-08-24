@@ -9,8 +9,12 @@ export default StyleSheet.create({
   },
   bigIntro: {
     padding: 30,
+    fontFamily: 'Chalkduster',
     fontSize: 30,
     color: 'white'
+  },
+  name: {
+    fontFamily:'HelveticaNeue-CondensedBold'
   },
   para: {
     paddingTop: 10,
