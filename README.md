@@ -37,6 +37,9 @@ Specifically, the emphasis on real-time geolocation / location tracking (via App
 
 ## Deployment
 
+It was not in the scope of this project to submit the app to the AppStore, or beta test it via 
+TestFlight. In accordance with instructor permission, the React Native app can currently only be run locally. This was approved by the relevant authorities. 
+
 
 ## Authors
 
